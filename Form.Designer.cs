@@ -28,100 +28,100 @@
         /// </summary>
         private void InitializeComponent()
         {
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form));
-			this.progressBar = new System.Windows.Forms.ProgressBar();
-			this.updateButton = new System.Windows.Forms.Button();
-			this.launchButton = new System.Windows.Forms.Button();
-			this.statusLabel = new System.Windows.Forms.Label();
-			this.closeButton = new System.Windows.Forms.Label();
-			this.SuspendLayout();
-			// 
-			// progressBar
-			// 
-			this.progressBar.BackColor = System.Drawing.Color.Honeydew;
-			this.progressBar.Location = new System.Drawing.Point(336, 68);
-			this.progressBar.Name = "progressBar";
-			this.progressBar.Size = new System.Drawing.Size(330, 42);
-			this.progressBar.TabIndex = 0;
-			this.progressBar.Click += new System.EventHandler(this.progressBar_Click);
-			// 
-			// updateButton
-			// 
-			this.updateButton.BackColor = System.Drawing.Color.Ivory;
-			this.updateButton.FlatAppearance.BorderColor = System.Drawing.Color.Honeydew;
-			this.updateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.updateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.updateButton.ForeColor = System.Drawing.SystemColors.Desktop;
-			this.updateButton.Location = new System.Drawing.Point(18, 137);
-			this.updateButton.Name = "updateButton";
-			this.updateButton.Size = new System.Drawing.Size(330, 42);
-			this.updateButton.TabIndex = 1;
-			this.updateButton.Text = "Download";
-			this.updateButton.UseVisualStyleBackColor = false;
-			this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
-			// 
-			// launchButton
-			// 
-			this.launchButton.BackColor = System.Drawing.Color.Ivory;
-			this.launchButton.FlatAppearance.BorderColor = System.Drawing.Color.Honeydew;
-			this.launchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.launchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.launchButton.ForeColor = System.Drawing.SystemColors.Desktop;
-			this.launchButton.Location = new System.Drawing.Point(336, 20);
-			this.launchButton.Name = "launchButton";
-			this.launchButton.Size = new System.Drawing.Size(330, 42);
-			this.launchButton.TabIndex = 2;
-			this.launchButton.Text = "Launch";
-			this.launchButton.UseVisualStyleBackColor = false;
-			this.launchButton.Click += new System.EventHandler(this.launchButton_Click);
-			// 
-			// statusLabel
-			// 
-			this.statusLabel.AutoSize = true;
-			this.statusLabel.BackColor = System.Drawing.Color.Transparent;
-			this.statusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.statusLabel.ForeColor = System.Drawing.Color.Ivory;
-			this.statusLabel.Location = new System.Drawing.Point(15, 119);
-			this.statusLabel.Name = "statusLabel";
-			this.statusLabel.Size = new System.Drawing.Size(127, 15);
-			this.statusLabel.TabIndex = 3;
-			this.statusLabel.Text = "INFORMATION HERE";
-			this.statusLabel.Click += new System.EventHandler(this.statusLabel_Click);
-			// 
-			// closeButton
-			// 
-			this.closeButton.AutoSize = true;
-			this.closeButton.BackColor = System.Drawing.Color.Transparent;
-			this.closeButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.closeButton.ForeColor = System.Drawing.Color.Red;
-			this.closeButton.Location = new System.Drawing.Point(343, -1);
-			this.closeButton.Name = "closeButton";
-			this.closeButton.Size = new System.Drawing.Size(19, 18);
-			this.closeButton.TabIndex = 4;
-			this.closeButton.Text = "x";
-			this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
-			// 
-			// Form
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.Color.Aqua;
-			this.BackgroundImage = global::RTG_Updater.Properties.Resources.image;
-			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.ClientSize = new System.Drawing.Size(360, 210);
-			this.Controls.Add(this.closeButton);
-			this.Controls.Add(this.statusLabel);
-			this.Controls.Add(this.launchButton);
-			this.Controls.Add(this.updateButton);
-			this.Controls.Add(this.progressBar);
-			this.ForeColor = System.Drawing.SystemColors.ControlText;
-			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.Name = "Form";
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Arcane Lands - Updater";
-			this.Load += new System.EventHandler(this.Form1_Load);
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form));
+            this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.updateButton = new System.Windows.Forms.Button();
+            this.launchButton = new System.Windows.Forms.Button();
+            this.statusLabel = new System.Windows.Forms.Label();
+            this.closeButton = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // progressBar
+            // 
+            this.progressBar.BackColor = System.Drawing.Color.Honeydew;
+            this.progressBar.Location = new System.Drawing.Point(478, 74);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(407, 42);
+            this.progressBar.TabIndex = 0;
+            this.progressBar.Click += new System.EventHandler(this.progressBar_Click);
+            // 
+            // updateButton
+            // 
+            this.updateButton.BackColor = System.Drawing.Color.Ivory;
+            this.updateButton.FlatAppearance.BorderColor = System.Drawing.Color.Honeydew;
+            this.updateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.updateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updateButton.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.updateButton.Location = new System.Drawing.Point(47, 271);
+            this.updateButton.Name = "updateButton";
+            this.updateButton.Size = new System.Drawing.Size(407, 42);
+            this.updateButton.TabIndex = 1;
+            this.updateButton.Text = "Download";
+            this.updateButton.UseVisualStyleBackColor = false;
+            this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
+            // 
+            // launchButton
+            // 
+            this.launchButton.BackColor = System.Drawing.Color.Ivory;
+            this.launchButton.FlatAppearance.BorderColor = System.Drawing.Color.Honeydew;
+            this.launchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.launchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.launchButton.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.launchButton.Location = new System.Drawing.Point(478, 26);
+            this.launchButton.Name = "launchButton";
+            this.launchButton.Size = new System.Drawing.Size(407, 42);
+            this.launchButton.TabIndex = 2;
+            this.launchButton.Text = "Launch";
+            this.launchButton.UseVisualStyleBackColor = false;
+            this.launchButton.Click += new System.EventHandler(this.launchButton_Click);
+            // 
+            // statusLabel
+            // 
+            this.statusLabel.AutoSize = true;
+            this.statusLabel.BackColor = System.Drawing.Color.Transparent;
+            this.statusLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusLabel.ForeColor = System.Drawing.Color.Ivory;
+            this.statusLabel.Location = new System.Drawing.Point(45, 253);
+            this.statusLabel.Name = "statusLabel";
+            this.statusLabel.Size = new System.Drawing.Size(127, 15);
+            this.statusLabel.TabIndex = 3;
+            this.statusLabel.Text = "INFORMATION HERE";
+            this.statusLabel.Click += new System.EventHandler(this.statusLabel_Click);
+            // 
+            // closeButton
+            // 
+            this.closeButton.AutoSize = true;
+            this.closeButton.BackColor = System.Drawing.Color.Transparent;
+            this.closeButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.closeButton.ForeColor = System.Drawing.Color.Red;
+            this.closeButton.Location = new System.Drawing.Point(475, -1);
+            this.closeButton.Name = "closeButton";
+            this.closeButton.Size = new System.Drawing.Size(19, 18);
+            this.closeButton.TabIndex = 4;
+            this.closeButton.Text = "x";
+            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
+            // 
+            // Form
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Aqua;
+            this.BackgroundImage = global::RTG_Updater.Properties.Resources.legends_updater;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ClientSize = new System.Drawing.Size(496, 334);
+            this.Controls.Add(this.closeButton);
+            this.Controls.Add(this.statusLabel);
+            this.Controls.Add(this.launchButton);
+            this.Controls.Add(this.updateButton);
+            this.Controls.Add(this.progressBar);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Legends of Gaurdia - Updater";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

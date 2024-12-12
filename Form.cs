@@ -100,8 +100,8 @@ namespace RTG_Updater
 
         private async Task CheckForUpdates()
         {
-            string hashUrl = "https://gaurdia.page/arcane/hash.txt";
-            string executablePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Arcane Lands", "Arcane Lands.exe");
+            string hashUrl = "https://gaurdia.page/hash.txt";
+            string executablePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "RTGaurdia", "RTGaurdia.exe");
 
             try
             {
@@ -175,10 +175,10 @@ namespace RTG_Updater
 
 		private async void updateButton_Click(object sender, EventArgs e)
 		{
-			string zipUrl = "https://gaurdia.page/arcane/arcane.zip";
+			string zipUrl = "https://gaurdia.page/update.zip";
 			string zipPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "update.zip");
-			string oldGameFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Arcane Lands");
-			string tempGameFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, $"Arcane Lands_{Guid.NewGuid()}");
+			string oldGameFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "RTGaurdia");
+			string tempGameFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, $"RTGaurdia_{Guid.NewGuid()}");
 
 			try
 			{
@@ -237,7 +237,7 @@ namespace RTG_Updater
 				File.Delete(zipPath);
 
 				// Verify the extracted file's hash
-				string extractedExecutablePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Arcane Lands", "Arcane Lands.exe");
+				string extractedExecutablePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "RTGaurdia", "RTGaurdia.exe");
 				if (File.Exists(extractedExecutablePath))
 				{
 					string downloadedHash = CalculateSHA256Hash(extractedExecutablePath);
@@ -348,7 +348,7 @@ namespace RTG_Updater
 
         private void launchButton_Click(object sender, EventArgs e)
         {
-            string executablePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Arcane Lands", "Arcane Lands.exe");
+            string executablePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "RTGaurdia", "RTGaurdia.exe");
 
             try
             {
